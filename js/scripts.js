@@ -15,7 +15,7 @@ $('#toggler').on('click touch', function () {
     } else {
         nav.css('left', '0');
         toggler.removeClass('fa-bars').addClass('fa-times');
-        $('#toggler').css('padding' , '70% 40%')
+        $('#toggler').css('padding' , '0 0 70% 40% ')
     }
 });
 
