@@ -5,7 +5,7 @@ new SmoothScroll('a[href*="#"]', {
 
 new WOW().init();
 
-$('#toggler').on('click', function () {
+$('#toggler').on('click touch', function () {
     var nav = $('#nav');
     var toggler = $('#toggler i');
 
@@ -15,6 +15,7 @@ $('#toggler').on('click', function () {
     } else {
         nav.css('left', '0');
         toggler.removeClass('fa-bars').addClass('fa-times');
+        $('#toggler').css('padding' , '70% 40%')
     }
 });
 
