@@ -12,6 +12,7 @@ $('#toggler').on('click touch', function () {
     if (nav.css('left') === '0px') {
         nav.css('left', '-240px');
         toggler.removeClass('fa-times').addClass('fa-bars');
+        $('#toggler').removeAttr('style')
     } else {
         nav.css('left', '0');
         toggler.removeClass('fa-bars').addClass('fa-times');
