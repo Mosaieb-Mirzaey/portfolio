@@ -71,7 +71,7 @@ a:hover {
 
 #navbar {
     position: fixed;
-    padding: 20px 40px;
+    padding: 70px 40px;
     right: 0;
     left: 0;
     top: 0;
@@ -544,6 +544,7 @@ a:hover {
     text-align: center;
     line-height: 2.3em;
     transition-duration: 0.5s;
+    z-index: 30;
 }
 
 #go-to-top:hover {
