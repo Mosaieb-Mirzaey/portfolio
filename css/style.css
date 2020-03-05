@@ -553,7 +553,7 @@ a:hover {
 
 @media (max-width: 768px) {
     #carousel-top .carousel-title {
-        font-size: 34px;
+        font-size: 32px;
     }
     .postal {
         display: inline-block;
