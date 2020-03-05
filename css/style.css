@@ -384,7 +384,7 @@ a:hover {
 }
 
 .card-port .card__line {
-    opacity: .0;
+    opacity: 1;
  }
 
 .card-port .card__image {

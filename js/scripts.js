@@ -82,7 +82,6 @@ $(".carousel-text").ActingFy();
 
 $.fn.actingCard = function Card() {
 
-    let cardLine = $(".card__line");
     let cardImage = $(".card__image");
     let cardContent = $(".card__content");
 
@@ -91,7 +90,6 @@ $.fn.actingCard = function Card() {
     let element = this;
 
     function exeCard() {
-        // cardLine.css("animation", "svgLinePort 2.8s .2s forwards ease-in");
         cardImage.css("animation", "ImageFadeIn .5s .3s forwards");
         cardContent.css("background-color", "#ce408482");
         cardContent.css("animation", "ContentFadeIn .8s 1.6s forwards");
@@ -106,9 +104,6 @@ $.fn.actingCard = function Card() {
     $(window).on("scroll load", function () {
         if (calcLengthOfTop() < offset)
             exeCard();
-        // setTimeout(function () {
-        //     $(".card__line").removeAttr('style');
-        // }, 3000);
     });
 
 
@@ -145,9 +140,6 @@ $.fn.cardEffect = function () {
     $(window).on("load", function () {
 
         $("#portfolio-container").children(".effect").addClass('wow').addClass('fadeInUp');
-        setTimeout(function () {
-            $("#portfolio-container ").children(".effect").removeClass('wow').removeClass('fadeInUp').removeAttr('style');
-        }, 730);
     });
 };
 
