@@ -112,6 +112,10 @@ $.fn.actingCard = function Card() {
 $(".card__image").actingCard();
 
 
+
+
+
+
 $(document).ready(function () {
     $('#go-to-top').css('opacity', '0').css('visibility', 'hidden');
     $("#nav a").click(function () {
@@ -133,17 +137,6 @@ $(document).ready(function () {
 
 
 
-
-$.fn.cardEffect = function () {
-
-
-    $(window).on("load", function () {
-
-        $("#portfolio-container").children(".effect").addClass('wow').addClass('fadeInUp');
-    });
-};
-
-$("#portfolio-container .effect").cardEffect();
 
 
 
