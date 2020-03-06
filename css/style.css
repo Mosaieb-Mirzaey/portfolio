@@ -552,6 +552,8 @@ a:hover {
 }
 
 
+
+
 @media (max-width: 768px) {
     #carousel-top .carousel-title {
         font-size: 32px;
@@ -579,6 +581,45 @@ a:hover {
     }
     #svg-experience {
         margin-top: -50px;
+    }
+    #experience .timeline-card-inner {
+        margin-left: -35px;
+    }
+    #experience .timeline:before {
+        margin-left: 8px;
+    }
+
+    #experience .under-heading-experience {
+        font-size: 1.3rem;
+    }
+    #experience .timeline-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    #experience .timeline-label {
+        margin-left: 48px;
+    }
+    #experience .timeline-label:after {
+        top: 6px;
+    }
+    #experience .timeline-icon i {
+        font-size: 19px;
+    }
+    #experience .timeline-icon.color-none {
+        margin-left: 6px;
+    }
+    #experience .timeline-label h2 {
+        font-size: 20px;
+    }
+    #experience .timeline-label h2 span{
+        font-size: 15px;
+    }
+    #experience .timeline-label h3 {
+        font-size: 17px;
+    }
+    #experience .timeline-label p {
+        font-size: 14px;
     }
 }
 
