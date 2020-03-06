@@ -1,0 +1,335 @@
+﻿@font-face{
+    font-family:roya;
+    src:url('fonts/RoyaR.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:roya;
+    src:url('fonts/RoyaB.woff') format('woff');
+    font-weight:bold;
+    font-style:normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+    list-style:none;
+}
+input , select , textarea {
+    font-family:inherit;
+    font-size:inherit;
+}
+body {
+    direction: rtl;
+    font-family: roya;
+    font-size:20px;
+}
+.clear{
+    clear:both;
+}
+.wrapper{
+    width:1140px;
+    margin:0 auto;
+}
+#topmenu{
+    background-color:black;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:2;
+}
+#nav li{
+    display:inline-block;
+    width:120px;
+    text-align:center;
+}
+#nav li:hover{
+    background-color:maroon;
+}
+#nav li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px 0;
+}
+#header{
+    background-color:#5ad;
+    margin-top:53px;
+}
+#search{
+    float:right;
+    width:800px;
+    color:white;
+}
+#search h1{
+    text-align:center;
+    font-size:56px;
+    padding-top:18px;
+    font-weight:bold;
+}
+#search form{
+    text-align:center;
+}
+#search label{
+    padding-bottom:5px;
+    font-size:28px;
+}
+#search input[type="search"]{
+    width:400px;
+    border-radius:8px;
+    padding:5px;
+    border-bottom:2px solid #ccc;
+}
+#search .button{
+    color:white;
+    width:80px;
+    border-radius:5px;
+    padding:4px 0;
+    margin-right:10px;
+    background-image:linear-gradient(#27a , #059);
+}
+#search .button:hover{
+    background-image:linear-gradient(#059 , #037);
+}
+#login{
+    margin:15px;
+    font-size:16px;
+    color:white;
+    float:left;
+}
+#login fieldset{
+    border:1px solid whitesmoke;
+    padding:10px;
+    margin:0;
+}
+#login legend{
+    padding:5px;
+    margin-right:10px;
+}
+#login label{
+    display:inline-block;
+    width:100px;
+}
+#login input{
+    margin:5px;
+    vertical-align:middle;
+    direction:ltr;
+}
+#login input[type="text"] , #login input[type="password"]{
+    border-radius:4px;
+    padding:3px;
+    border:1px solid #555;
+    width:160px;
+}
+#login .button{
+    color:white;
+    text-decoration:none;
+    width:70px;
+    border-radius:4px;
+    background-image:linear-gradient(#27a , #059);
+    float:right;
+    text-align:center;
+    margin:5px;
+    height:30px;
+    cursor:pointer;
+}
+#login input[type="submit"]{
+    margin-right:60px;
+}
+#login .button:hover{
+    background-image:linear-gradient(#059 , #037);
+}
+#main{
+    background-color:#f7f7f7;
+}
+#sidebar{
+    width:258px;
+    float:right;
+    margin-top:20px;
+    border:1px solid #ccc;
+}
+#sidebar h2{
+    background-color:#47a;
+    text-align:center;
+    color:white;
+    padding:5px;
+    font-size:24px;
+    font-weight:bold;
+}
+#cats{
+    background-color:white;
+}
+#cats li{
+    padding:4px 20px;
+}
+#cats > li{
+    border-bottom:1px solid #eee;
+}
+#cats li li{
+    font-size:16px;
+}
+#cats li li li{
+    font-size:14px;
+}
+#cats a{
+    text-decoration:none;
+    color:#666;
+}
+#cats a:hover{
+    color:black;
+}
+#cats a::before{
+    content:'\2666';
+    margin-left:7px;
+}
+#content{
+    float:right;
+    margin-top:20px;
+    margin-right:20px;
+    width:855px;
+}
+.courses h2{
+    font-size:24px;
+    border-bottom:3px dotted #bbb;
+    padding:4px 30px;
+    color:#555;
+}
+.post{
+    background-color:white;
+    width:260px;
+    height:310px;
+    float:right;
+    border:1px solid #bbb;
+    margin:11px;
+    border-radius:6px;
+    overflow:hidden;
+    position:relative;
+}
+.post p{
+    color:white;
+    background-color:rgba(0 , 0 , 0 , 0.6);
+    font-size:16px;
+    text-align:justify;
+    position:absolute;
+    top:-150px;
+    padding:10px;
+    height:130px;
+    transition:0.3s;
+}
+.post:hover p{
+    top:0;
+}
+.post:hover{
+    box-shadow:0 0 5px -1px;
+}
+.post a{
+    text-decoration:none;
+}
+.post h3{
+    color:#555;
+    font-size:20px;
+    font-weight:normal;
+    padding:10px;
+    height:85px;
+    border-bottom:1px solid #ccc;
+    line-height:30px;
+}
+.post img{
+    display:block;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.postlabel{
+    font-size:18px;
+    color:green;
+    text-align:center;
+    border:2px solid #ddd;
+    border-radius:20px;
+    background-color:#f7f7f7;
+    width:90px;
+    padding:2px;
+    margin:8px;
+}
+.courses::after{
+    content:' ';
+    display:block;
+    clear:both;
+    margin-bottom:30px;
+}
+#footer{
+    background-color:#002;
+    border-top:4px solid orange;
+    color:white;
+}
+#sitemap{
+    margin:10px 120px;
+    width:250px;
+}
+#sitemap h3{
+    border-bottom:2px solid white;
+}
+#sitemap a{
+    color:#bbb;
+    text-decoration:none;
+    padding:2px 10px;
+    font-size:16px;
+    display:block;
+    border-bottom:1px dotted #777;
+    width:150px;
+}
+#sitemap a:hover{
+    color:white;
+    border-bottom:1px solid white;
+}
+#newsletter{
+    margin:10px 120px;
+    width:250px;
+}
+#newsletter h3{
+    border-bottom:2px solid white;
+}
+#newsletter form{
+    text-align:center;
+}
+#newsletter label{
+    display:inline-block;
+    margin-bottom:3px;
+    margin-top:6px;
+    color:#bbb;
+}
+#newsletter input[type="email"]{
+    width:230px;
+    padding:4px;
+    margin-bottom:10px;
+    border-radius:4px;
+    border-bottom:2px solid #ccc;
+}
+#newsletter input[type="submit"]{
+    width:100px;
+    padding:2px;
+    border-radius:3px;
+    border:1px solid #999;
+    color:#bbb;
+    cursor:pointer;
+    background-image:linear-gradient(#113 , #446);
+}
+#newsletter input[type="submit"]:hover{
+    background-image:linear-gradient(#224 , #557);
+    color:white;
+}
+#copyright{
+    padding:8px;
+    font-size:18px;
+    text-align:center;
+    color:#bbb;
+    background-color:black;
+    border-top:2px solid green;
+}
+#copyright b{
+    color:white;
+}

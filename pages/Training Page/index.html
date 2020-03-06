@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 1</title>
+    <meta charset="utf-8" />
+    <link href="Example1.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Practical Example -->
+    <div id="topmenu">
+        <div class="wrapper">
+            <nav>
+                <ul id="nav">
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">همکاری با ما</a></li>
+                    <li><a href="#">تبلیغات</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header id="header">
+        <div class="wrapper">
+            <div id="search">
+                <h1>مرجع آموزش آنلاین</h1>
+                <form>
+                    <label>دوره مورد نظر خود را جستجو کنید</label><br />
+                    <input type="search" name="search" />
+                    <input type="submit" class="button" value="جستجو" />
+                </form>
+            </div>
+            <div id="login">
+                <form>
+                    <fieldset>
+                        <legend>وارد شوید</legend>
+                        <label>نام کاربری</label><input type="text" name="user" /><br />
+                        <label>کلمه عبور</label><input type="password" name="pass" /><br />
+                        <input type="checkbox" name="remember" /><label>مرا به خاطر بسپار</label><br />
+                        <input type="submit" value="ورود" class="button" />
+                        <a href="#" class="button">ثبت نام</a>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <div id="main">
+        <div class="wrapper">
+            <aside id="sidebar">
+                <h2>دسته بندی</h2>
+                <nav>
+                    <ul id="cats">
+                        <li>
+                            <a href="#">برنامه نویسی</a>
+                            <ul>
+                                <li><a href="#">PHP و MySQL</a></li>
+                                <li><a href="#">C# , C++ , C</a></li>
+                                <li><a href="#">Perl , Ruby , Python</a></li>
+                                <li>
+                                    <a href="#">JavaScript</a>
+                                    <ul>
+                                        <li><a href="#">jQuery</a></li>
+                                        <li><a href="#">AngularJS</a></li>
+                                        <li><a href="#">Node.js</a></li>
+                                        <li><a href="#">Backbone.js</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">MATLAB , Fortran</a></li>
+                                <li><a href="#">برنامه نویسی موبایل</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">طراحی</a>
+                            <ul>
+                                <li>
+                                    <a href="#">طراحی وب</a>
+                                    <ul>
+                                        <li><a href="#">HTML و CSS</a></li>
+                                        <li><a href="#">Bootstrap</a></li>
+                                        <li><a href="#">SASS و Compass</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">طراحی سه بعدی و انیمیشن</a></li>
+                                <li><a href="#">طراحی دکوراسیون</a></li>
+                                <li><a href="#">طراحی لوگو و بنر</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">درسی و کنکوری</a>
+                            <ul>
+                                <li><a href="#">دروس دبیرستان</a></li>
+                                <li><a href="#">دروس  کاردانی</a></li>
+                                <li><a href="#">دروس  کارشناسی</a></li>
+                                <li><a href="#">دروس  کارشناسی ارشد</a></li>
+                                <li><a href="#">دروس  دکتری</a></li>
+                                <li><a href="#">دروس کنکوری</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main id="content">
+                <section class="courses">
+                    <h2>آخرین دوره های آموزشی</h2>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/htmlcss.jpg" width="260" height="150" />
+                            <h3>آموزش طراحی صفحات وب با HTML5 و CSS3</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                            <p>
+                                HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                                این دوره با آخرین نسخه‌ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                            </p>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/bootstrap.jpg" width="260" height="150" />
+                            <h3>آموزش Bootstrap 3</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/matlab.jpg" width="260" height="150" />
+                            <h3>اصول برنامه نویسی در MATLAB (از مبتدی تا پیشرفته)</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/jquery.png" width="260" height="150" />
+                            <h3>آموزش کامل jQuery و jQuery UI</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/phpmysql.jpg" width="260" height="150" />
+                            <h3>آموزش برنامه نویسی با PHP و MySQL</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                </section>
+                <section class="courses">
+                    <h2>پر طرفدارترین دوره های آموزشی</h2>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/htmlcss.jpg" width="260" height="150" />
+                            <h3>آموزش طراحی صفحات وب با HTML5 و CSS3</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/bootstrap.jpg" width="260" height="150" />
+                            <h3>آموزش Bootstrap 3</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/matlab.jpg" width="260" height="150" />
+                            <h3>اصول برنامه نویسی در MATLAB (از مبتدی تا پیشرفته)</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/jquery.png" width="260" height="150" />
+                            <h3>آموزش کامل jQuery و jQuery UI</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                    <article class="post">
+                        <a href="#">
+                            <img src="images/phpmysql.jpg" width="260" height="150" />
+                            <h3>آموزش برنامه نویسی با PHP و MySQL</h3>
+                            <time class="postlabel right">۳۰:۲۲:۲۲</time>
+                            <span class="postlabel left">۳۳ ثبت نام</span>
+                        </a>
+                    </article>
+                </section>
+            </main>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="wrapper">
+            <div id="sitemap" class="right">
+                <h3>نقشه سایت</h3>
+                <ul>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">همکاری با ما</a></li>
+                    <li><a href="#">تبلیغات</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                </ul>
+            </div>
+            <div id="newsletter" class="left">
+                <h3>عضویت در خبرنامه</h3>
+                <form>
+                    <label>ایمیل خود را وارد کنید</label>
+                    <input type="email" name="email" /><br />
+                    <input type="submit" value="عضویت" />
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="copyright">
+            <p>
+                کلیه حقوق مادی و معنوی این سایت متعلق به <b>مرجع آموزش آنلاین</b> است.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

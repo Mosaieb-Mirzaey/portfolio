@@ -1,0 +1,86 @@
+#navbar {
+    opacity: 0.9;
+}
+
+#nav {
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+#nav .nav-item {
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    #nav {
+        border-top: 0;
+        margin-top: 0;
+    }
+}
+
+.showcase {
+    background-image: url("../images/mountains.jpg");
+}
+
+.overlay {
+    background-color: rgba(117,157,255,0.5);
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+.main-title {
+    line-height: 180%;
+    font-weight: 300;
+    padding: 80px 0;
+}
+
+.btn, .card, .form-control {
+    border-radius: 0;
+}
+
+@media (min-width: 1200px) {
+    .main-title {
+        font-size: 3rem;
+    }
+    .book-image {
+        max-width: 84%;
+        margin: 0 auto;
+    }
+}
+
+.section-header {
+    max-width: 640px;
+    margin: 10px auto;
+    color: #555555;
+}
+
+#accordion {
+    max-width: 900px;
+    border: 1px solid #dee2e6;
+}
+
+#accordion .card {
+    border: 0;
+}
+
+#accordion h5 {
+    cursor: pointer;
+}
+
+#authors .card img {
+    margin-top: -50px;
+}
+
+#contact .input-group-text {
+    width: 52px;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#contact .form-control {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.animated {
+    animation-duration: 3s;
+}
