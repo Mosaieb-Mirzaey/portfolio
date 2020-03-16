@@ -569,6 +569,15 @@ a:hover {
     #carousel-top .carousel-title {
         font-size: 32px;
     }
+    #slider .banner-1 {
+        background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner1%20-%20min.png')
+    }
+    #slider .banner-2 {
+        background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner2%20-%20min.png')
+    }
+    #slider .banner-3 {
+        background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner3%20-%20min.png')
+    }
     .postal {
         display: inline-block;
         text-align: center;
@@ -674,6 +683,16 @@ a:hover {
         font-size: 14px;
         transition-duration: 0ms;
         padding: 0;
+    }
+
+    #slider .banner-1 {
+        background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner1.png')
+    }
+    #slider .banner-2 {
+        background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner2.png')
+    }
+    #slider .banner-3 {
+        background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner3.png')
     }
 
     .info {
