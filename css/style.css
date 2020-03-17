@@ -570,7 +570,8 @@ a:hover {
         font-size: 32px;
     }
     #carousel-top .carousel-item {
-        min-height: 510px;
+        min-height: 460px;
+        height: 71vh;
     }
     #slider .banner-1 {
         background-image: url('https://raw.githubusercontent.com/Mosaieb-Mirzaey/portfolio/master/images/Banner/banner1%20-%20min.png')
