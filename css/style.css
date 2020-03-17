@@ -6,7 +6,7 @@
 }
 
 @font-face {font-family: "Elemental End";
-    src: url(../fonts/elemental/elemental.ttf) format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    src: url('../fonts/elemental/elemental.ttf') format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 }
 @font-face {font-family: "Times New Roman PS";
     src: url(../fonts/times/61c81a93fc1cbc8a8a687477b78a6795.ttf) format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
