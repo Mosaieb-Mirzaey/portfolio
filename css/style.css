@@ -1,8 +1,7 @@
 
-@font-face {
-    font-family: 'AquireBold';
-    font-weight: bold;
+@font-face {font-family: 'AquireBold';
     src: url(../fonts/Aquire/AquireBold-8Ma60.otf) format('opentype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: bold;
 }
 
 @font-face {font-family: "raleway-bold";
