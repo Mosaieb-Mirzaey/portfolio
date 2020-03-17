@@ -144,7 +144,7 @@ a:hover {
 /* skills */
 
 #skills {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'raleway';
     margin-top: 80px;
     padding-top: 30px;
 }
@@ -188,9 +188,8 @@ a:hover {
 }
 
 #sub-p-1, #sub-p-2, #sub-p-3, #sub-p-4, #sub-p-5 {
-    text-align: center;
     color: #858585;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 22px;
 }
 
@@ -603,7 +602,7 @@ a:hover {
         text-align: center;
     }
     .info p {
-        font-size: 17px;
+        font-size: 15px;
     }
     .info .name h2 {
         font-size: 22px;
@@ -625,7 +624,9 @@ a:hover {
     .skilltitle {
         text-align: left;
     }
-
+    #sub-p-1, #sub-p-2, #sub-p-3, #sub-p-4, #sub-p-5 {
+        font-size: 13px;
+    }
     .progress {
         margin-left: 0;
     }
