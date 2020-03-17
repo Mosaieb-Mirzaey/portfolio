@@ -5,8 +5,9 @@
     src: url(../fonts/Aquire/AquireBold-8Ma60.otf) format('opentype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 }
 
-@font-face {font-family: "Elemental End";
-    src: url('../fonts/elemental/elemental.ttf') format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+@font-face {font-family: "Elemental End Italic";
+    font-style: italic;
+    src: url('../fonts/elemental/Elemental End italic.ttf') format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 }
 @font-face {font-family: "Times New Roman PS";
     src: url(../fonts/times/61c81a93fc1cbc8a8a687477b78a6795.ttf) format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
@@ -166,7 +167,7 @@ a:hover {
 }
 
 #skills h2, .info h2, #portfolio h2 {
-    font-family: "Elemental End","raleway-bold";
+    font-family: "Elemental End Italic","raleway-bold";
     letter-spacing: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
