@@ -1,10 +1,7 @@
 @font-face {font-family: "Elemental End";
-    src: url(../fonts/elemental/9122f57114591a8a664016d3c33953c5.eot) format("eot"), /* IE9*/
-    url(../fonts/elemental/9122f57114591a8a664016d3c33953c5.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
-    url(../fonts/elemental/9122f57114591a8a664016d3c33953c5.woff2) format("woff2"), /* chrome、firefox */
-    url(../fonts/elemental/9122f57114591a8a664016d3c33953c5.woff) format("woff"), /* chrome、firefox */
-    url(../fonts/elemental/9122f57114591a8a664016d3c33953c5.ttf) format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url(../fonts/elemental/9122f57114591a8a664016d3c33953c5.svg) format("svg"); /* iOS 4.1- */
+    src: url(../fonts/elemental/elemental.eot) format("eot"), /* IE9*/
+    url(../fonts/elemental/elemental.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+    url(../fonts/elemental/elemental.ttf) format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 }
 @font-face {font-family: "Times New Roman PS";
     src: url(../fonts/times/61c81a93fc1cbc8a8a687477b78a6795.eot) format("eot"), /* IE9*/
