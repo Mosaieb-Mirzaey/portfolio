@@ -164,4 +164,22 @@ $.fn.svgEffectExperience = function EffectExperience () {
 $("#svg-experience").svgEffectExperience();
 
 
+$.fn.svgEffectExperience = function EffectExperience () {
+    let svgExper = $("#svg-SkillsClasses").children("svg").children('path');
+    let offset = 500;
+    let element = this;
 
+    function calcLengthOfTop() {
+        let scrollTop = $(window).scrollTop();
+        let elementOffset = element.offset().top;
+        return (elementOffset - scrollTop);
+    }
+
+    $(window).on("load scroll", function () {
+        if (calcLengthOfTop() < offset){
+            svgExper.css('animation' , 'svgEffectExperience 3.5s linear forwards');
+        }
+    });
+};
+
+$("#svg-SkillsClasses").svgEffectExperience();

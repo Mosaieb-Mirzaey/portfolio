@@ -215,7 +215,13 @@ a:hover {
     stroke-dasharray:2300;
     stroke-dashoffset:2300;
 }
-#experience {
+
+#svg-SkillsClasses .line1, .line2, .line3, .line4 {
+    stroke-dasharray:2300;
+    stroke-dashoffset:2300;
+}
+
+#experience , #skillsClasses {
     padding-top: 4em;
     padding-bottom: 9em;
     clear: both;
@@ -223,7 +229,7 @@ a:hover {
     display: block;
 }
 
-.heading-experience, .under-heading-experience {
+.heading-experience , .heading-SkillsClasses , .under-heading-experience , .under-heading-SkillsClasses {
     font-family: "AquireBold";
     margin-bottom: 15px;
     display: block;
@@ -237,11 +243,11 @@ a:hover {
     font-weight: 700;
     letter-spacing: 5px;
 }
-.under-heading-experience {
+.under-heading-experience , .under-heading-SkillsClasses {
     font-size: 1.75rem;
 }
 
-#experience .timeline:before {
+#experience .timeline:before, #skillsClasses .timeline:before {
     content: '';
     position: absolute;
     display: block;
@@ -251,17 +257,17 @@ a:hover {
     bottom: 20px;
     margin-left: 29px;
 }
-#experience .timeline-card {
+#experience .timeline-card, #skillsClasses .timeline-card {
     position: relative;
     margin-top: 5px;
     margin-left: 30px;
     margin-bottom: 10px;
     clear: both;
 }
-#experience .timeline-card-inner {
+#experience .timeline-card-inner, #skillsClasses .timeline-card-inner  {
     position: relative;
     margin-left: -20px; }
-#experience .timeline-icon {
+#experience .timeline-icon, #skillsClasses  .timeline-icon {
     display: block;
     width: 40px;
     height: 40px;
@@ -277,17 +283,17 @@ a:hover {
     line-height: 44px;
     float: left;
 }
-#experience .timeline-icon i {
+#experience .timeline-icon i, #skillsClasses .timeline-icon i {
     font-size: 24px;
     color: white;
 }
-#experience .timeline-icon.color-none {
+#experience .timeline-icon.color-none, #skillsClasses  .timeline-icon.color-none {
     background: #fff;
     width: 20px;
     height: 20px;
     margin-left: 10px;
 }
-#experience .timeline-label {
+#experience .timeline-label, #skillsClasses .timeline-label {
     position: relative;
     background: #f4f5f9;
     border: #e5e6ea 1px solid ;
@@ -296,7 +302,7 @@ a:hover {
     margin-left: 60px;
     background-clip: padding-box;
 }
-#experience .timeline-label:after {
+#experience .timeline-label:after, #skillsClasses .timeline-label:after {
     content: '';
     display: block;
     width: 0;
@@ -309,19 +315,19 @@ a:hover {
     border-width: 9px 9px 9px 9px;
     border-color: transparent #e5e6ea transparent transparent;
 }
-#experience .timeline-label h2 {
+#experience .timeline-label h2 ,#skillsClasses .timeline-label h2 {
     font-size: 23px;
     font-family: "Quicksand", Arial, sans-serif;
     font-weight: 600;
 }
-#experience .timeline-label h3 {
+#experience .timeline-label h3 , #skillsClasses .timeline-label h3 {
     font-size: 18px;
     font-family: "Quicksand", Arial, sans-serif;
 }
-#experience .timeline-label h2 span {
+#experience .timeline-label h2 span, #skillsClasses .timeline-label h2 span {
     font-size: 16px;
 }
-#experience .timeline-label p {
+#experience .timeline-label p, #skillsClasses .timeline-label p {
      /*margin-top: 15px;*/
     text-align: justify;
  }
@@ -630,46 +636,46 @@ a:hover {
     .progress {
         margin-left: 0;
     }
-    #svg-experience {
+    #svg-experience , #svg-SkillsClasses {
         margin-top: -50px;
     }
-    #experience .timeline-card-inner {
+    #experience .timeline-card-inner, #skillsClasses .timeline-card-inner {
         margin-left: -35px;
     }
-    #experience .timeline:before {
+    #experience .timeline:before, #skillsClasses  .timeline:before {
         margin-left: 8px;
     }
 
-    #experience .under-heading-experience {
+    #experience .under-heading-experience, #skillsClasses  .under-heading-SkillsClasses {
         font-size: 1.3rem;
     }
-    #experience .timeline-icon {
+    #experience .timeline-icon, #skillsClasses .timeline-icon {
         width: 30px;
         height: 30px;
         line-height: 30px;
     }
-    #experience .timeline-label {
+    #experience .timeline-label, #skillsClasses .timeline-label {
         margin-left: 48px;
     }
-    #experience .timeline-label:after {
+    #experience .timeline-label:after, #skillsClasses .timeline-label:after {
         top: 6px;
     }
-    #experience .timeline-icon i {
+    #experience .timeline-icon i, #skillsClasses .timeline-icon i {
         font-size: 19px;
     }
-    #experience .timeline-icon.color-none {
+    #experience .timeline-icon.color-none, #skillsClasses .timeline-icon.color-none {
         margin-left: 6px;
     }
-    #experience .timeline-label h2 {
+    #experience .timeline-label h2, #skillsClasses .timeline-label h2 {
         font-size: 20px;
     }
-    #experience .timeline-label h2 span{
+    #experience .timeline-label h2 span, #skillsClasses .timeline-label h2 span{
         font-size: 15px;
     }
-    #experience .timeline-label h3 {
+    #experience .timeline-label h3, #skillsClasses .timeline-label h3 {
         font-size: 17px;
     }
-    #experience .timeline-label p {
+    #experience .timeline-label p, #skillsClasses .timeline-label p {
         font-size: 14px;
     }
 }
@@ -731,7 +737,7 @@ a:hover {
     .progress {
         margin-left: 29px;
     }
-    #svg-experience {
+    #svg-experience , #svg-SkillsClasses {
         margin-top: -65px;
     }
 }
@@ -748,7 +754,7 @@ a:hover {
     .progress {
         margin-left: 19px;
     }
-    #svg-experience {
+    #svg-experience , #svg-SkillsClasses {
         margin-top: -85px;
     }
 }
